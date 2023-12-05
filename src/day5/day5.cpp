@@ -166,7 +166,7 @@ int day5::part2() {
             }
             locationsFoRange.push_back(currentVal);
         }
-        locations.push_back(*std::max_element(locationsFoRange.begin(), locationsFoRange.end()));
+        locations.push_back(*std::min_element(locationsFoRange.begin(), locationsFoRange.end()));
     }
 
     long answer = *std::min_element(locations.begin(), locations.end());
