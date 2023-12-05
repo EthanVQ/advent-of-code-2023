@@ -12,4 +12,6 @@ add_executable(advent_of_code_2023 main.cpp
         src/day2/day2.h
         src/tools.cpp
         src/tools.h
+        src/day3/day3.cpp
+        src/day3/day3.h
 )
